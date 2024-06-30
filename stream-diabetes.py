@@ -5,7 +5,7 @@ import streamlit as st
 diabetes_model = pickle.load(open('diabetes_model6.sav', 'rb'))
 
 #judul web
-st.title('Prediksi Penyakit Diabetes Melitus ')
+st.title('Prediksi & Analisis Penyakit Diabetes ')
 
 #membagi kolom
 col1, col2 = st.columns(2)
